@@ -1,0 +1,32 @@
+{
+    "name": "gmosso/wpnonce",
+    "description": "An OOP implementation of WordPress Nonces",
+    "keywords": [
+        "wordpress", "nonce"
+    ],
+    "homepage": "https://github.com/giancarlomosso/wordpress-nonces-oop",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giancarlo Mosso",
+            "email": "giancarlo.mosso@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : "7.1.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "6.1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gmosso\\WPNonce\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gmosso\\WPNonce\\Test\\": "tests"
+        }
+    }
+}

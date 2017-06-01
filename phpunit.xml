@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="WP Nonce Library Test Suite">
+            <directory suffix="Test.php" phpVersion="7.1.0" phpVersionOperator=">=">./tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
